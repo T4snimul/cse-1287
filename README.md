@@ -10,6 +10,11 @@ Clone this repository
 git clone https://github.com/t4snimul/cse-1287.git
 ```
 
+Change into the directory
+```bash
+cd cse-1287
+```
+
 ### For Windows
 
 Run the following command in PowerShell
