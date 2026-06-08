@@ -7,9 +7,9 @@ int main()
   printf("Sensor readings\n");
   for (int i = 0; i < 5; i++)
   {
-    printf("%0.2f", temperatures[i]);
+    printf("%0.2f", *(temperatures + i));
 
-    if (temperatures[i] > 100)
+    if (*(temperatures + i) > 100)
       printf(" ALERT!");
 
     printf("\n");
