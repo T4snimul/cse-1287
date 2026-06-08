@@ -11,6 +11,7 @@ git clone https://github.com/t4snimul/cse-1287.git
 ```
 
 Change into the directory
+
 ```bash
 cd cse-1287
 ```
@@ -27,4 +28,18 @@ Example
 
 ```ps1
 .\run.ps1 .\2024\5-b-factorial.c
+```
+
+### For Linux
+
+Run the following command in PowerShell
+
+```bash
+./run.sh ./year/1-a-problem.c
+```
+
+Example
+
+```bash
+./run.sh ./2024/5-b-factorial.c
 ```
