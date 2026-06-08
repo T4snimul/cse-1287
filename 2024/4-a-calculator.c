@@ -4,10 +4,8 @@ int main()
 {
   int operation, num1, num2;
 
-  printf("Enter a number: ");
-  scanf("%d", &num1);
-  printf("Enter another number: ");
-  scanf("%d", &num2);
+  printf("Enter 2 numbers: ");
+  scanf("%d %d", &num1, &num2);
 
   printf("\n1. Addition\n2. Substraction\n3. Multiplication\n4. Division\n");
   printf("\nSelect Operation (number): ");
