@@ -32,7 +32,7 @@ Example
 
 ### For Linux
 
-Run the following command in PowerShell
+Run the following command in Bash
 
 ```bash
 ./run.sh ./year/1-a-problem.c
