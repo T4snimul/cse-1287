@@ -6,9 +6,9 @@ void printTemperatures(float temperatures[], int index, int size)
   if (index >= size)
     return;
 
-  printf("%.2f", temperatures[index]);
+  printf("%.2f", *(temperatures + index));
 
-  if (temperatures[index] > 100)
+  if (*(temperatures + index) > 100)
     printf(" ALERT!");
 
   printf("\n");
